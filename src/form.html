@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microsoft - PW1</title>
+    <link rel="shortcut icon" type="image/x-icon" href="../img/favicon.ico">
+</head>
+
+<body background="../img/bliss.png">
+    <!-- Esse aqui é o cabeçalho padrão de QUASE todas as páginas :) -->
+    <table cellspacing="2px" width="95%" align="center" border="4" bgcolor="white">
+        <tr align="center">
+            <td width="100px"><a target="_blank" href="https://eteccelsogiglio.cps.sp.gov.br/"><img width="200px"
+                src="../img/etec.png" alt="Logo-ETEC-242"></a></td>
+            <td colspan="3">
+                <font size="6px" color="green" face="Arial Black">CADASTRO</font>
+            </td>
+            <td width="210px">
+                <b>Desenvolvimento de Sistemas <br> Programação Web I </b>
+            </td>
+        </tr>
+        <tr>
+            <td width="20%" align="center"><a href="../index.html">
+                    <font color="#3369ff">Home</font>
+                </a></td>
+            <td width="20%" align="center"><a href="page1.html">
+                    <font color="#3369ff">Criação</font>
+                </a></td>
+            <td width="20%" align="center"><a href="page2.html">
+                    <font color="#3369ff">Windows</font>
+                </a></td>
+            <td width="20%" align="center"><a href="page3.html">
+                    <font color="#3369ff">Atualidade</font>
+                </a></td>
+            <td width="20%" align="center"><a href="creditos.html">
+                    <font color="#3369ff">Créditos</font>
+                </a></td>
+        </tr>
+    </table> <br>
+
+    <!-- Esse aqui é o corpo do texto padrão de todas as páginas :) -->
+    <table bgcolor="white" cellspacing="4px" width="95%" align="center" border="4">
+        <tr>
+            <td>
+                <form>
+                    <!--Dados Pessoais-->
+                    <fieldset>
+                        <legend>
+                            <font size="5px" face="arial" color="green"><b><u>1. Dados Pessoais</u></b></font>
+                        </legend>
+                        Nome:&nbsp;&nbsp;<input type="TEXT" name="nome" size="20" placeholder="Insira o Nome Completo">
+                        <br><br>
+                        Data de Nascimento: <input type="date" min="1900-01" max="2025-05"><br><br>
+                        Nacionalidade:&nbsp;&nbsp;<input type="TEXT" name="nacionalidade" size="20">
+                        <br><br>
+                        CPF:&nbsp;&nbsp;<input type="TEXT" name="cpf" size="20" placeholder="000.000.000-00">
+                        <br><br>
+                        Gênero:
+                        <input type="radio" name="Gênero" value="Feminino">Feminino
+                        <input type="radio" name="Gênero" value="Masculino">Masculino<p></p>
+                        Orientação Sexual:
+                        <select name="Orientação">
+                            <option value="Heterossexual"> Heterossexual
+                            <option value="Homossexual"> Homossexual
+                            <option value="Bissexual"> Bissexual
+                            <option value="Assexual"> Assexual
+                            <option value="Pansexual"> Pansexual
+                        </select>
+                        <br><br>
+                        Estado Civil:
+                        <select name="EstadoCivil">
+                            <option value="Casado(a)"> Casado(a)
+                            <option value="Solteiro(a)" selected> Solteiro(a)
+                            <option value="Divorciado(a)"> Divorciado(a)
+                            <option value="União estável"> União estável
+                            <option value="Viúvo(a)"> Viúvo(a)
+                        </select> <br><br>
+                    </fieldset>
+                    <!---->
+
+                    <!--Endereço e Contato-->
+                    <fieldset>
+                        <legend>
+                            <font size="5px" face="arial" color="green"><b><u>2. Dados de Endereço/Contato</u></b>
+                            </font>
+                        </legend>
+                        Endereço:&nbsp;&nbsp;<input type="TEXT" name="address" size="20"
+                            placeholder="Avenida, Rua, Número">
+                        <br><br>
+                        CEP:&nbsp;&nbsp;<input type="TEXT" name="cep" size="20" placeholder="000000-000">
+                        <br><br>
+                        Telefone:&nbsp;&nbsp;<input type="TEXT" name="telefone" size="20"
+                            placeholder="(DDD) 90000-0000">
+                        <br><br>
+                        Tipo de telefone:&nbsp;&nbsp;<input type="TEXT" name="tipo-telefone" size="20"
+                            placeholder="Ex.: Fixo, Móvel">
+                        <br><br>
+                        Unidade Federativa:
+                        <select name="Estados">
+                            <option value="AC"> AC
+                            <option value="AL"> AL
+                            <option value="AP"> AP
+                            <option value="AM"> AM
+                            <option value="BA"> BA
+                            <option value="CE"> CE
+                            <option value="DF"> DF
+                            <option value="ES"> ES
+                            <option value="GO"> GO
+                            <option value="MA"> MA
+                            <option value="MT"> MT
+                            <option value="MS"> MS
+                            <option value="MG"> MG
+                            <option value="PA"> PA
+                            <option value="PB"> PB
+                            <option value="PR"> PR
+                            <option value="PE"> PE
+                            <option value="PI"> PI
+                            <option value="RJ"> RJ
+                            <option value="RN"> RN
+                            <option value="RS"> RS
+                            <option value="RO"> RO
+                            <option value="RR"> RR
+                            <option value="SC"> SC
+                            <option value="SP" selected> SP
+                            <option value="SE"> SE
+                            <option value="TO"> TO
+                        </select>
+                        <br><br>
+                        E-mail:&nbsp;&nbsp;<input type="TEXT" name="email" size="20" placeholder="seuemail@host.com">
+                        <br><br>
+                    </fieldset>
+                    <!---->
+
+                    <!--Dados de formação-->
+                    <fieldset>
+                        <legend>
+                            <font size="5px" face="arial" color="green"><b><u>3. Dados de Formação</u></b></font>
+                        </legend>
+                        Grau de Instrução:
+                        <select name="Grau de Instrução">
+                            <option value="Ensino fundamental incompleto"> Ensino fundamental incompleto
+                            <option value="Ensino fundamental completo"> Ensino fundamental completo
+                            <option value="Ensino médio incompleto" selected> Ensino médio incompleto
+                            <option value="Ensino médio completo"> Ensino médio completo
+                            <option value="Superior completo (ou graduação)"> Superior completo (ou graduação)
+                            <option value="Pós-graduação"> Pós-graduação
+                            <option value="Mestrado"> Mestrado
+                            <option value="Doutorado"> Doutorado
+                        </select>
+                        <br> <br>
+                        Instituição de Ensino:&nbsp;&nbsp;<input type="TEXT" name="instituição" size="20">
+                        <br><br>
+                        Curso:&nbsp;&nbsp;<input type="TEXT" name="curso" size="20">
+                        <br><br>
+                        Data de Conclusão: <input type="date" min="1900-01" name="conclusão">
+                        <br><br>
+                        Idiomas:&nbsp;&nbsp;<input type="TEXT" name="idiomas" size="20"
+                            placeholder="Ex.: Português, Inglês">
+                    </fieldset>
+                    <br>
+                    Limpar Formulário:
+                    <input type="reset" value="Limpar"><br><br>
+                    Enviar Formulário:
+                    <input type="submit" value="Enviar"><br>
+                </form>
+            </td>
+    </table>
+    <br>
+</body>
+
+</html>
